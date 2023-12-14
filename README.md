@@ -16,10 +16,10 @@ The project requires the following Python libraries:
 
 You can install these dependencies using pip:
 
-```bash
+~~~bash
 pip install gradio PyPDF2 transformers sklearn
 
-
+~~~
 
 ## Usage
 To use the Exam Evaluator, simply run the Python script. This will launch a Gradio interface where you can upload your PDF document, input your question, and input the student’s answer. The Exam Evaluator will then evaluate the student’s answer and provide a score.
